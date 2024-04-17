@@ -1,0 +1,44 @@
+body {
+    margin: 1em;
+    background-image: linear-gradient(90deg,
+            grey 0%,
+            grey 10%,
+            black 10%,
+            black 20%,
+            grey 20%,
+            grey 30%,
+            black 30%,
+            black 40%,
+            grey 40%,
+            grey 50%,
+            black 50%,
+            black 60%,
+            grey 60%,
+            grey 70%,
+            black 70%,
+            black 80%,
+            grey 80%,
+            grey 90%,
+            black 90%,
+            black);
+    font-family: "Foldit", serif;
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+game {
+    display: inline;
+    /* DO NOT CHANGE display: inline */
+}
+
+.card {
+    display: inline-block;
+    /* DO NOT CHANGE display: inline-block */
+    background-color: rgba(0, 0, 0, 0.37);
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    border: 2px solid black;
+}
